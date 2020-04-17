@@ -1,6 +1,6 @@
 body
 {
-    background-color: lightgray;
+    background-color: #404040;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -23,5 +23,44 @@ body
 #menu
 {
     color: white;
-    background-color: gray;
+    background-color: #303030;
+    padding: 10px;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+
+.option
+{
+    float: left;
+    padding: 10px;
+    border-right: 2px dotted #444444;
+    height: 25px;
+    font-size: 18px;
+}
+
+.option:hover
+{
+    cursor: pointer;
+    background-color: black;
+}
+
+#topbar
+{
+    background-color: rgb(233, 216, 143);
+    margin-top: 20px;
+}
+
+#topbarL
+{
+    float: left;
+    border-right: 3px dotted black;
+    width: 200px;
+}
+
+#topbarR
+{
+    float: left;
+    width: 600px;
+    background-color: bisque;
+    margin: 15px;
 }
