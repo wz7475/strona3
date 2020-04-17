@@ -50,22 +50,23 @@ body
     margin-top: 30px;
     margin-bottom: 25px;
     padding: 20px;
-    height: 170px;
+    height: 180px;
 }
 
 #topbarL
 {
     float: left;
     border-right: 3px dotted black;
-    width: 180px;
+    width: 137px;
     text-align: center;
-    /* padding: 20px; */
+    padding: 20px;
 }
 
 #topbarR
 {
     float: left;
-    width: 600px;
-    background-color: bisque;
-    margin: 15px;
+    width: 740px;
+    padding: 20px;
+    font-size: 17px;
+    text-align: justify;
 }
