@@ -56,8 +56,8 @@ body
 #topbarL
 {
     float: left;
-    border-right: 3px dotted black;
-    width: 137px;
+    border-right: 2px dotted black;
+    width: 138px;
     text-align: center;
     padding: 20px;
 }
@@ -69,4 +69,53 @@ body
     padding: 20px;
     font-size: 17px;
     text-align: justify;
+}
+
+#sidebar
+{
+    float: left;
+    width: 158px;
+    padding: 20px;
+    background-color: #cccccc;border-right: 2px dotted black;
+    text-align: center;
+    min-height: 600px;
+}
+
+.optionL
+{
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 2px dotted #000000;
+}
+
+.optionL:hover
+{
+    background-color: orange;
+    cursor: pointer;
+}
+
+#content
+{
+    float: left;
+    width: 720px;
+    background-color: #eee7e7;
+    min-height: 560px;
+    padding: 40px;
+    text-align: justify;
+}
+
+#dottedline
+{
+    border-bottom: 2px dotted #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer
+{
+    clear: both;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
 }
