@@ -11,7 +11,7 @@ body
     margin-right: auto;
 }
 
-#logo
+header
 {
     color: white;
     margin-top: 20px;
@@ -20,7 +20,7 @@ body
     font-weight: 700;
 }
 
-#menu
+nav
 {
     color: white;
     background-color: #303030;
@@ -116,7 +116,7 @@ body
     clear: both;
 }
 
-#footer
+footer
 {
 	text-align: center;
     font-size: 22px;
